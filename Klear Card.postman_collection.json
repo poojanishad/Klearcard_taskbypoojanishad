@@ -1,0 +1,129 @@
+{
+	"id": "0a9eba96-7f97-22db-3e7a-ec13e5c4e00f",
+	"name": "Klear Card",
+	"description": "",
+	"order": [
+		"17938bb5-44da-401d-5382-4c7e57ef6ac7",
+		"c551f7e2-f322-afee-acda-deff4de1ab04"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1621090015197,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "17938bb5-44da-401d-5382-4c7e57ef6ac7",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Mr Hello",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "mobile",
+					"value": "9876543210",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "hello@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "card",
+					"value": "9876543210987654",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1621090330388,
+			"name": "Register",
+			"description": "",
+			"collectionId": "0a9eba96-7f97-22db-3e7a-ec13e5c4e00f",
+			"responses": []
+		},
+		{
+			"id": "c551f7e2-f322-afee-acda-deff4de1ab04",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Basic a2xlYXI6Y2FyZA==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic a2xlYXI6Y2FyZA==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/users/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "userid",
+					"value": "609fe12d06347",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1621090615953,
+			"name": "Login",
+			"description": "",
+			"collectionId": "0a9eba96-7f97-22db-3e7a-ec13e5c4e00f",
+			"responses": []
+		}
+	]
+}

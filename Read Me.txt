@@ -1,0 +1,7 @@
+Please follow below steps:
+ 1. Create database `kcard` and import kcard.sql into it.
+ 2. Unzip kcard.zip
+ 3. Run command `php spark serve` from root of kcard.
+ 4. Import `Klear Card.postman_collection` in postman.
+ 5. Check Register
+ 6. Check Login  
